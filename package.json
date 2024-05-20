@@ -1,0 +1,23 @@
+{
+  "name": "odoo-p023-api-documentation",
+  "version": "1.0.0",
+  "description": "SAP to Odoo integration documentation.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "apidoc -i src -o apidoc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elitumgroup/odoo-p023-api-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elitumgroup/odoo-p023-api-documentation/issues"
+  },
+  "homepage": "https://github.com/elitumgroup/odoo-p023-api-documentation#readme",
+  "dependencies": {
+    "apidoc": "^1.2.0"
+  }
+}
