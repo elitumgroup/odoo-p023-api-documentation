@@ -4,7 +4,7 @@
   "description": "SAP to Odoo integration documentation.",
   "main": "src/index.js",
   "scripts": {
-    "build": "apidoc -i src -o apidoc",
+    "build": "apidoc -i src -o apidoc --output docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
